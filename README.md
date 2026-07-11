@@ -22,9 +22,7 @@ A CLI tool to download videos/music from YouTube and videos from TikTok, right f
 Clone this repo and run the installer:
 
 ```bash
-git clone https://github.com/pembri/media-downloader
-cd media-downloader
-bash install.sh
+git clone https://github.com/pembri/media-downloader && cd media-downloader && chmod +x install.sh && ./install.sh
 ```
 
 The installer will automatically:
@@ -128,9 +126,7 @@ rm -rf ~/Media-Downloader         # Debian/Ubuntu
 To update to the latest version, simply re-run the installer (safely overwrites old files):
 
 ```bash
-cd media-downloader
-git pull
-bash install.sh
+cd media-downloader && git pull && chmod +x install.sh && ./install.sh
 ```
 
 ## Notes
